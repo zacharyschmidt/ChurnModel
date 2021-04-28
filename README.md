@@ -10,7 +10,7 @@ source:
 
 https://github.com/full-stack-deep-learning/fsdl-text-recognizer-2021-labs/blob/main/setup/readme.md#Colab
 
-`
+```
 # Launch VSCode server
 !curl -fsSL https://code-server.dev/install.sh | sh
 !nohup code-server --port 9000 --auth none &
@@ -21,6 +21,6 @@ from pyngrok import ngrok
 # ngrok.set_auth_token("get from https://dashboard.ngrok.com/auth/your-authtoken, if you want to pay $10/month for a little bit better service")
 url = ngrok.connect(9000)
 print(url)
-`
+```
 
 Then clone the repo from the VSCode interface. 
